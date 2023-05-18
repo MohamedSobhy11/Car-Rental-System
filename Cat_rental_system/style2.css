@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://wallpaper.dog/large/5448919.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+.login{
+    margin-top: 40px;
+    color: black;
+}
+.form1{
+    background-color: rgba(0, 0, 0, 0.668) !important;
+    height: 630px;
+}
+.form2{
+    background-color: rgba(0, 0, 0, 0.668) !important;
+}
+.font{
+    font-size: 90%;
+}
+.font2{
+    font-weight: bold;
+}

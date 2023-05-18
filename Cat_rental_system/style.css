@@ -1,0 +1,196 @@
+.cart-edit {
+    color: rgb(178, 7, 167) !important;
+}
+
+.test {
+    width: 100%;
+    height: 15vh;
+}
+
+.search-edit {
+    width: 600px;
+    height: 55px;
+    border: 3px;
+    margin-left: 20px;
+    /* border-color: aqua; */
+}
+
+.search-edit input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search-edit button {
+    outline: none;
+    padding: 15px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.glass {
+    color: gray;
+}
+
+.navfont {
+    font-size: 70%;
+}
+
+.searchbar {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 840px) {
+    .search-edit {
+        width: 50vw;
+    }
+}
+
+.font1 {
+    font-size: 70%;
+    padding-left: 20px;
+}
+
+.font2 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.links {
+    color: white;
+}
+
+.links:hover {
+    color: rgb(178, 7, 167);
+}
+
+.links:focus {
+    color: rgb(178, 7, 167);
+}
+
+@media only screen and (max-width: 767px) {
+    .font3 {
+        font-size: 70%;
+    }
+}
+
+.footer-color {
+    background-color: rgba(0, 0, 0, 0.892);
+}
+
+.font4 {
+    color: rgb(128, 128, 128);
+}
+
+.font5 {
+    color: rgb(128, 128, 128);
+    font-size: 70%;
+}
+
+.resize {
+    padding-left: 36px;
+}
+
+.footer-bg {
+    background-color: black;
+}
+
+.footer-padding {
+    padding-right: 150px;
+}
+
+.images {
+    max-height: fit-content;
+}
+
+.sub-button {
+    background-color: rgb(178, 7, 167);
+    color: white;
+}
+
+.caption {
+    opacity: 0.8;
+    background-color: rgb(178, 7, 167);
+}
+
+.spacing {
+    letter-spacing: 7px;
+    color: rgb(178, 7, 167);
+}
+
+.hr-font {
+    color: rgb(47, 45, 45);
+}
+
+.card2 {
+    background-color: black;
+    height: 10px;
+    width: fit-content;
+}
+
+.card-font {
+    font-size: 65%;
+}
+
+@media screen and (max-width: 991px) and (min-width:768px) {
+    .card2 {
+        font-size: 90%;
+    }
+}
+      .image-hover:hover {
+        filter: brightness(50%);
+    
+    }
+    .hide{
+        display: none;
+    }
+    .image-hover:hover + .hide{
+        display: flex;
+        position: absolute;
+        top: 40%;
+        right: 45%;
+    }
+.quote {
+    position: relative;
+    text-align: center;
+    background: url(https://manofmany.com/wp-content/uploads/2019/04/David-Gandy.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+.quote2{
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+}
+.thumbnail{
+    height: 8vh;
+    width: 8vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+}
+.image-background{
+    background:     linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),url(https://images.unsplash.com/photo-1593531944206-2195b2e49bd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyMDkxNTM5fHxlbnwwfHx8fA%3D%3D&w=1000&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.eye-color{
+    color: white;
+}
+.quote-icon{
+    color: rgb(178, 7, 167);
+}
